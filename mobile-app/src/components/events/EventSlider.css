@@ -1,0 +1,34 @@
+.event-slider .slider-title{
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.event-slider .view-all{
+    text-align: right;
+    text-transform: unset;
+}
+.event-slider .view-all ion-text{
+    font-size: small !important;
+    text-transform: none;
+}
+
+.event-slider .swiper-slide{
+    width: 80% !important;
+}
+
+.event-slider .swiper-slide.single{
+    width: 100% !important;
+}
+
+.event-slider .loading{
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.event-slider ion-card{
+    margin-inline: 10px;
+}
+
+.event-slider ion-card-header{
+    padding: 16px;
+}

@@ -1,0 +1,59 @@
+.metaverse-map ion-header {
+    background-image: none;
+}
+
+.metaverse-map ion-header::after {
+    background-image: none !important;
+}
+
+.metaverse-map ion-toolbar {
+    --background: transparent;
+    --border-width: 0 !important;
+}
+
+.metaverse-map ion-searchbar input {
+    border: solid 1px var(--ion-color-step-100) !important;
+}
+
+.metaverse-map ion-searchbar.ios {
+    /* padding-top: 15px; */
+    --background: var(--ion-color-step-100) !important;
+}
+
+.metaverse-map #map {
+    height: 100%;
+}
+
+.sheet-toolbar {
+    height: 32px !important;
+}
+
+.map-types ion-grid {
+    padding-bottom: 8px;
+}
+
+.map-types ion-col {
+    min-width: 40vw;
+    text-align: center;
+}
+
+.map-types ion-thumbnail {
+    --border-radius: 8px;
+    --size: min(10vh, 72px);
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.map-types ion-text {
+    color: var(--ion-color-dark);
+}
+
+.fab-layers.md{
+    top: 56px;
+    margin-top: 0;
+}
+
+.fab-layers.ios{
+    top: 84px;
+    margin-top: 0;
+}

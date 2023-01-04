@@ -1,0 +1,7 @@
+.filter-modal ion-select{
+  --placeholder-color: #fff !important;
+  --placeholder-opacity: 1 !important;
+}
+.filter-modal ion-list{
+  height: 100%;
+}

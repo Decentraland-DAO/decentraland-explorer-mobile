@@ -1,0 +1,108 @@
+.transactions ion-segment{
+    width: 94%;
+    margin: auto;
+    margin-top: 16px;
+}
+.transactions ion-list.bids {
+    background: none !important;
+}
+.transactions ion-list.bids ion-item{
+    --background: none !important;
+    font-size: small !important;
+    --border-color: var(--ion-color-step-100) !important;
+    --min-height: 0 !important;
+}
+.transactionsion-list.bids ion-avatar{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.transactions ion-thumbnail{
+    --border-radius: 5px !important;
+}
+.transactions ion-list.bids .mana{
+    width: 12px;
+    height: 12px;
+}
+.transactions ion-list.bids ion-label.bidder{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.transactions ion-list.bids .price-date{
+    text-align: right;
+}
+.transactions ion-list.bids .bid-row{
+    --padding-start: 0 !important;
+}
+.transactions i.mana.ethereum{
+    margin-right: 4px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuODY0IDYuOTUyYzAtMS45ODQtMS42LTMuNjMyLTMuNTg0LTMuNjMyUzIuNjk2IDQuOTY4IDIuNjk2IDYuOTUyYzAgMS45NjggMS42IDMuNTY4IDMuNTg0IDMuNTY4czMuNTg0LTEuNiAzLjU4NC0zLjU2OHptLS44MzIgMGMwIDEuNTA0LTEuMzQ0IDIuNzM2LTIuNzUyIDIuNzM2LTEuNTUyIDAtMi43NTItMS4yLTIuNzUyLTIuNzM2IDAtMS41MiAxLjItMi44IDIuNzUyLTIuOCAxLjQyNCAwIDIuNzUyIDEuMjggMi43NTIgMi44em0zLjIxNiAzLjQ3MnYtNi44OEw2LjI4LjEyLjMxMiAzLjU0NHY2Ljg4bDUuOTY4IDMuNDI0IDUuOTY4LTMuNDI0em0tMS4wNTYtLjU5MmwtNC44OTYgMi44LTQuOTI4LTIuOFY0LjE4NEw2LjI4IDEuMzM2bDQuOTEyIDIuODQ4djUuNjQ4eiIgZmlsbD0iI0ZGMkQ1NSIvPjwvc3ZnPg==);
+    background-size: cover;
+}
+.transactions i.mana.polygon{
+    margin-right: 4px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAwbDEyIDEyLTEyIDEyTDAgMTIgMTIgMHptMCAzLjM2TDIwLjY0IDEyIDEyIDIwLjY0IDMuMzYgMTIgMTIgMy4zNnptMCAxMi45NmE0LjMyIDQuMzIgMCAxMC4wMDEtOC42NCA0LjMyIDQuMzIgMCAwMDAgOC42NHoiIGZpbGw9IiMxNjE0MUEiLz48L3N2Zz4=);
+    background-size: cover;
+    filter: brightness(100);
+}
+.transactions .status.open{
+    color: var(--ion-color-secondary);
+}
+.transactions .status.cancelled{
+    color: var(--ion-color-danger);
+}
+.transactions .status.expired{
+    color: var(--ion-color-danger);
+}
+.transactions .status.sold{
+    color: var(--ion-color-success);
+}
+.transactions .ens-thumbnail{
+    background: #3f3a45;
+    text-align: center;
+}
+.transactions .ens-thumbnail div{
+    padding-top: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.transactions .loading{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.transactions .epic{
+    background-color: #518eec;
+  }
+  
+.transactions .rare{
+    background-color: #38d37c;
+}
+  
+.transactions .legendary{
+    background-color: #8f3be0;
+}
+
+.transactions .unique{
+    background-color: #ffca20;
+}
+  
+.transactions .common{
+    background-color: #c6c6c6;
+}
+  
+.transactions .uncommon{
+    background-color: #f87c5c;
+}
+  
+.transactions .mythic{
+    background-color: #fd71e2;
+}

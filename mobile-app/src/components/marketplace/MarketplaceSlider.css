@@ -1,0 +1,30 @@
+.marketplace-slider .slider-title{
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.marketplace-slider .view-all{
+    text-align: right;
+    text-transform: unset;
+}
+.marketplace-slider .view-all ion-text{
+    font-size: small !important;
+    text-transform: none;
+}
+
+.marketplace-slider .swiper-slide{
+    width: 180px !important;
+}
+
+.marketplace-slider .loading{
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.marketplace-slider ion-card{
+    margin-inline: 10px;
+}
+
+.marketplace-slider ion-card-header{
+    padding: 16px;
+}

@@ -1,0 +1,65 @@
+.event-card .img-container{
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.event-card ion-card-header{
+  padding-bottom: 0 !important;
+}
+
+.event-card ion-chip{
+  margin-left: 0 !important;
+  border-radius: 5px !important;
+  max-width: 100%;
+}
+
+.event-card ion-card-subtitle ion-chip{
+  font-size: small !important;
+  margin-right: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.event-card ion-card-title{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-size: 14px;
+  min-height: 33px;
+  margin-bottom: 8px;
+}
+.event-card .price{
+  margin-top: 8px;
+  font-size: large;
+}
+.event-card .network{
+  text-align: right;
+  font-size: smaller;
+}
+.event-card i.mana.ethereum{
+  margin-right: 4px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuODY0IDYuOTUyYzAtMS45ODQtMS42LTMuNjMyLTMuNTg0LTMuNjMyUzIuNjk2IDQuOTY4IDIuNjk2IDYuOTUyYzAgMS45NjggMS42IDMuNTY4IDMuNTg0IDMuNTY4czMuNTg0LTEuNiAzLjU4NC0zLjU2OHptLS44MzIgMGMwIDEuNTA0LTEuMzQ0IDIuNzM2LTIuNzUyIDIuNzM2LTEuNTUyIDAtMi43NTItMS4yLTIuNzUyLTIuNzM2IDAtMS41MiAxLjItMi44IDIuNzUyLTIuOCAxLjQyNCAwIDIuNzUyIDEuMjggMi43NTIgMi44em0zLjIxNiAzLjQ3MnYtNi44OEw2LjI4LjEyLjMxMiAzLjU0NHY2Ljg4bDUuOTY4IDMuNDI0IDUuOTY4LTMuNDI0em0tMS4wNTYtLjU5MmwtNC44OTYgMi44LTQuOTI4LTIuOFY0LjE4NEw2LjI4IDEuMzM2bDQuOTEyIDIuODQ4djUuNjQ4eiIgZmlsbD0iI0ZGMkQ1NSIvPjwvc3ZnPg==);
+  background-size: cover;
+}
+.event-card  i.mana.polygon{
+  margin-right: 4px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAwbDEyIDEyLTEyIDEyTDAgMTIgMTIgMHptMCAzLjM2TDIwLjY0IDEyIDEyIDIwLjY0IDMuMzYgMTIgMTIgMy4zNnptMCAxMi45NmE0LjMyIDQuMzIgMCAxMC4wMDEtOC42NCA0LjMyIDQuMzIgMCAwMDAgOC42NHoiIGZpbGw9IiMxNjE0MUEiLz48L3N2Zz4=);
+  background-size: cover;
+  filter: brightness(100);
+}
+
+.event-card .ellipsis {
+  overflow:  hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751340632845",
+    "project_id": "decentraland-app",
+    "storage_bucket": "decentraland-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751340632845:android:41941b592360ea8c670e44",
+        "android_client_info": {
+          "package_name": "com.gh.decentraland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751340632845-8gjaabhprqcgrsmd93c7566u8pqqvifu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCivqpsJ0-UEPuV0nvlMsaRL3t1mJgzJk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751340632845-8gjaabhprqcgrsmd93c7566u8pqqvifu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+.account-info ion-avatar {
+  margin: auto;
+}
+
+.account-info .img-container {
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 8px;
+  padding-top: 36px;
+  background: #3f3a45;
+  color: var(--ion-color-dark);
+}
+
+.naccountame-info .img-container h1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: xx-large;
+}
+
+.account-info .img-container small {
+  text-transform: lowercase;
+  font-size: 100%;
+}
+
+.account-info ion-card-header {
+  padding-bottom: 0 !important;
+}
+
+.account-info .nft-grid {
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.account-info .nft-grid ion-card {
+  margin-inline: 4px !important;
+  height: 95%;
+}
+
+.account-info .ion-segment-button small{
+  text-transform: lowercase;
+  font-size: 100%;
+}
+
+.account-info .loading{
+  height: 300px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.account-info ion-card-content.nft-cards {
+  padding-left: 0;
+  padding-right: 0;
+}

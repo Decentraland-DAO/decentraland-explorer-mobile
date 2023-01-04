@@ -1,0 +1,37 @@
+.event-list ion-list{
+    margin-top: 16px;
+    margin: 10px;
+    background: none;
+    min-height: 100vh !important;
+}
+.event-list ion-item{
+    --padding-start: 8px !important;
+    --padding-end: 8px !important;
+    --padding-top: 8px !important;
+    --padding-bottom: 8px !important;
+    --border-color: var(--ion-color-step-100) !important;
+    --background: none;
+}
+.event-list ion-thumbnail{
+    --border-radius: 8px 0 0 8px !important;
+    width: 35%;
+    height: 80px;
+}
+.event-list ion-chip{
+    margin-top: 8px;
+    margin-left: 0 !important;
+    border-radius: 5px !important;
+    font-size: small;
+ }
+ .event-list ion-item ion-label{
+    white-space: normal;
+ }
+ .event-list ion-item ion-label ion-text{
+     font-size: smaller;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+ }

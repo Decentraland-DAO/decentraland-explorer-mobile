@@ -1,0 +1,110 @@
+.proposal-list ion-list{
+    margin-top: 16px;
+    margin: 10px;
+    background: none;
+    min-height: 100vh !important;
+}
+.proposal-list ion-item{
+    --padding-start: 8px !important;
+    --padding-end: 8px !important;
+    --padding-top: 8px !important;
+    --padding-bottom: 8px !important;
+    --border-color: var(--ion-color-step-100) !important;
+    --background: none;
+}
+.proposal-list ion-thumbnail{
+    --border-radius: 8px 0 0 8px !important;
+    width: 35%;
+    height: 80px;
+}
+
+.proposal-list .meta{
+   display: flex;
+   font-size: smaller;
+   justify-content: space-between;
+}
+
+.meta:first-of-type{
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+.proposal-list ion-chip{
+    margin-top: 8px;
+    margin-left: 0 !important;
+    border-radius: 5px !important;
+    font-size: small;
+ }
+
+ .proposal-list ion-chip.active{
+    --color: var(--ion-color-step-800);
+    border-color: var(--ion-step-800);
+ }
+
+ .proposal-list ion-chip.finished{
+    --color: var(--ion-color-step-800);
+    border-color: var(--ion-step-800);
+ }
+
+ .proposal-list ion-chip.rejected{
+    --color: var(--ion-color-danger);
+    border-color: var(--ion-danger);
+ }
+
+ .proposal-list ion-chip.passed{
+    --color: var(--green-800);
+    border-color: var(--green-800);
+ }
+
+ .proposal-list ion-chip.enacted{
+    color: var(--color);
+    background: var(--green-800);
+    border-color: var(--green-800);
+ }
+
+ .proposal-list ion-chip.enacted ion-icon{
+   color: var(--color);
+} 
+
+ .proposal-list ion-chip.poi{
+    --color: var(--green-800);
+    --background: var(--green-200);
+ }
+
+ .proposal-list ion-chip.catalyst{
+    --color: var(--blue-800);
+    --background: var(--blue-200);
+ }
+
+ .proposal-list ion-chip.ban_name{
+    --color: var(--fuchsia-800);
+    --background: var(--fuchisa-200);
+ }
+
+ .proposal-list ion-chip.grant{
+    --color: var(--purple-800);
+    --background: var(--purple-200);
+ }
+
+ .proposal-list ion-chip.linked_wearables{
+    --color: var(--yellow-800);
+    --background: var(--yellow-200);
+ }
+
+ .proposal-list ion-chip.poll, .proposal-list ion-chip.draft, .proposal-list ion-chip.governance{
+    --color: var(--orange-800);
+    --background: var(--orange-200);
+ }
+
+ .proposal-list ion-item ion-label{
+    white-space: normal;
+ }
+ .proposal-list ion-item ion-label ion-text{
+     font-size: smaller;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+ }

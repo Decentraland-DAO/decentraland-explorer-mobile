@@ -1,0 +1,35 @@
+.dao ion-content{
+    --padding-top: 16px;
+}
+
+.dao .loading{
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.dao ion-segment{
+    width: 94%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.dao .description{
+    margin-top: 16px !important;
+    padding-left: 16px !important;
+}
+
+.dao .list-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: auto;
+}
+
+.dao .list-heading .title{
+    margin: 0;
+}
+
+.dao .list-heading ion-button{
+    margin: 0;
+}

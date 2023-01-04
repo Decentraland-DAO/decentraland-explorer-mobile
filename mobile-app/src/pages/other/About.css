@@ -1,0 +1,13 @@
+.about ion-content{
+    --padding-top: 16px;
+}
+
+.about .ad-free{
+    margin-top: 16px !important;
+    padding-left: 16px !important;
+}
+
+.about .loading{
+    padding-top: 50px;
+    text-align: center;
+}

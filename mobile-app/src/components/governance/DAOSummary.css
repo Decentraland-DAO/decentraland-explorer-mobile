@@ -1,0 +1,61 @@
+.dao-summary .slider-title{
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.dao-summary .view-all{
+    text-align: right;
+    text-transform: unset;
+}
+.dao-summary .view-all ion-text{
+    font-size: small !important;
+    text-transform: none;
+}
+
+.dao-summary .swiper-slide{
+    width: 80% !important;
+}
+
+.dao-summary .swiper-slide.single{
+    width: 100% !important;
+}
+
+.dao-summary .loading{
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.dao-summary ion-card{
+    margin-inline: 10px;
+}
+
+.dao-summary ion-card-header{
+    padding: 16px;
+}
+
+  
+  .dao-summary .dao-summary-card ion-chip{
+    margin-left: 0 !important;
+    border-radius: 5px !important;
+    max-width: 100%;
+  }
+  
+  .dao-summary .dao-summary-card ion-card-subtitle ion-chip{
+    font-size: small !important;
+    margin-right: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .dao-summary .dao-summary-card ion-card-title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 14px;
+    min-height: 33px;
+    margin-bottom: 8px;
+  }
+  
+  

@@ -1,0 +1,37 @@
+.votes-modal {
+  overflow: auto;
+}
+
+.votes-modal ion-content {
+  --padding: 16px;
+}
+
+.votes-modal ion-list ion-item {
+  --min-height: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+  --inner-padding-end: 0;
+}
+
+.votes-modal ion-button {
+  width: 100%;
+  white-space: normal;
+  margin-bottom: 16px;
+}
+
+.votes-modal .voters ion-item {
+  font-size: small;
+}
+
+.votes-modal .voters .votes-title {
+  text-align: center;
+}
+
+.votes-modal .voting {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.votes-modal .votes-summary{
+  margin: 0;
+}

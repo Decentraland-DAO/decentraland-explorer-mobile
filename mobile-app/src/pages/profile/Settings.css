@@ -1,0 +1,20 @@
+.settings ion-content {
+    --padding-top: 16px;
+}
+
+.settings ion-list {
+    background: none;
+}
+
+.settings ion-list ion-list-header{
+    margin-bottom: 16px;
+}
+
+.settings ion-list ion-item {
+    --background: none;
+}
+
+.settings .loading {
+    padding-top: 50px;
+    text-align: center;
+}

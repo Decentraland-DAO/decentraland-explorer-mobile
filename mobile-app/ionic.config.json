@@ -1,0 +1,7 @@
+{
+  "name": "Decentraland Explorer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

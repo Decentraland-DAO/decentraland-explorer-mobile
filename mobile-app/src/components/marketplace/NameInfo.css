@@ -1,0 +1,27 @@
+.name-info .img-container{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+    padding-top: 36px;
+    background: #3f3a45;
+  }
+  
+  .name-info  .img-container h1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--ion-color-dark);
+    font-size: xx-large;
+  }
+
+  .name-info  .img-container small{
+    text-transform: lowercase;
+    font-size: 100%;
+  }
+  
+  
+  .name-info  ion-card-header{
+    padding-bottom: 0 !important;
+  }

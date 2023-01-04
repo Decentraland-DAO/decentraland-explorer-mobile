@@ -1,0 +1,6 @@
+{
+	"appId": "com.gh.decentraland",
+	"appName": "Decentraland Explorer",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,41 @@
+.item-info iframe{
+    border: none !important;
+    width: 100% !important;
+    height: calc(100vw - 64px) !important;
+    overflow: hidden;
+}
+.item-info .epic{
+    background-color: #518eec;
+}
+  
+.item-info .rare{
+    background-color: #38d37c;
+}
+  
+.item-info .legendary{
+    background-color: #8f3be0;
+}
+
+.item-card .unique{
+    background-color: #ffca20;
+  }
+  
+.item-info .common{
+    background-color: #c6c6c6;
+}
+  
+.item-info .uncommon{
+    background-color: #f87c5c;
+}
+  
+.item-info .mythic{
+    background-color: #fd71e2;
+}
+
+.item-info .frame-loading{
+    text-align: center;
+    position: absolute;
+    top: calc(((100vw - 64px) / 2) - 15px) !important;
+    left: calc(50vw - 14px);
+    color: var(--dark);
+}

@@ -1,0 +1,38 @@
+.toolbar-logo{
+    --border-radius: 100%;
+    height: 100%;
+    width: auto;
+    opacity: 0.6;
+}
+
+.toolbar-menu-button ion-avatar{
+    width:40px;
+    height: 40px;
+    background: var(--ion-color-dark);
+}
+
+.toolbar-menu-button ion-button.authenticated{
+    height: 40px;
+}
+
+.toolbar-menu-button ion-button.anonymous{    
+    /* border: solid 1px var(--ion-color-dark); */
+    background: var(--ion-color-dark);
+    border-radius: 50%;
+    width:32px;
+    height: 32px;
+}
+
+.toolbar-menu-button ion-button.anonymous ion-icon{    
+    color: var(--ion-color-light);
+}
+
+.metaverse-map .toolbar-menu-button ion-button.anonymous{    
+    background: var(--ion-color-primary-tint);
+    width:40px;
+    height: 40px;
+}
+
+.metaverse-map .toolbar-menu-button ion-button.anonymous ion-icon{    
+    color: var(--ion-color-dark);
+}

@@ -1,0 +1,148 @@
+.proposal-detail ion-content {
+   --padding-top: 16px;
+}
+
+.proposal-detail .loading {
+   padding-top: 50px;
+   text-align: center;
+}
+
+.proposal-detail .content {
+   margin-top: 16px !important;
+   padding-left: 16px !important;
+}
+
+.proposal-detail .content .title {
+   color: var(--ion-color-primary);
+}
+
+.proposal-detail .content h2 {
+   color: var(--ion-color-secondary);
+   font-size: 20px;
+}
+
+.proposal-detail .swiper-slide {
+   width: 70% !important;
+   margin-right: 16px;
+}
+
+.proposal-detail .swiper-slide.single {
+   width: 100% !important;
+}
+
+.proposal-detail .swiper-slide ion-img {
+   max-height: 180px;
+}
+
+.proposal-detail .proposal-profile {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   margin-top: 16px;
+}
+
+.proposal-detail .proposal-profile ion-avatar {
+   width: 32px;
+   height: 32px;
+}
+
+.proposal-detail ion-list.comments {
+   background: none;
+}
+
+.proposal-detail ion-list.comments ion-item {
+   align-items: flex-start;
+   background: none;
+   --background: none;
+   --padding-start: 0;
+}
+
+.proposal-detail ion-list.comments ion-item ion-avatar {
+   margin-right: 16px;
+}
+
+.proposal-detail ion-list.comments ion-item ion-text {
+   white-space: normal;
+}
+
+.proposal-detail ion-footer ion-title {
+   font-size: inherit;
+}
+
+.proposal-detail ion-footer ion-title.ios {
+   text-align: left;
+   padding-inline: 16px;
+}
+
+.proposal-detail ion-footer ion-text {
+   margin-right: 16px;
+}
+
+.proposal-detail ion-chip {
+   margin-top: 8px;
+   margin-left: 0 !important;
+   border-radius: 5px !important;
+   font-size: small;
+}
+
+.proposal-detail ion-chip.active {
+   --color: var(--ion-color-step-800);
+   border-color: var(--ion-step-800);
+}
+
+.proposal-detail ion-chip.finished {
+   --color: var(--ion-color-step-800);
+   border-color: var(--ion-step-800);
+}
+
+.proposal-detail ion-chip.rejected {
+   --color: var(--ion-color-danger);
+   border-color: var(--ion-danger);
+}
+
+.proposal-detail ion-chip.passed {
+   --color: var(--green-800);
+   border-color: var(--green-800);
+}
+
+.proposal-detail ion-chip.enacted {
+   color: var(--color);
+   background: var(--green-800);
+   border-color: var(--green-800);
+}
+
+.proposal-detail ion-chip.enacted ion-icon {
+   color: var(--color);
+}
+
+.proposal-detail ion-chip.poi {
+   --color: var(--green-800);
+   --background: var(--green-200);
+}
+
+.proposal-detail ion-chip.catalyst {
+   --color: var(--blue-800);
+   --background: var(--blue-200);
+}
+
+.proposal-detail ion-chip.ban_name {
+   --color: var(--fuchsia-800);
+   --background: var(--fuchisa-200);
+}
+
+.proposal-detail ion-chip.grant {
+   --color: var(--purple-800);
+   --background: var(--purple-200);
+}
+
+.proposal-detail ion-chip.linked_wearables {
+   --color: var(--yellow-800);
+   --background: var(--yellow-200);
+}
+
+.proposal-detail ion-chip.poll,
+.proposal-detail ion-chip.draft,
+.proposal-detail ion-chip.governance {
+   --color: var(--orange-800);
+   --background: var(--orange-200);
+}

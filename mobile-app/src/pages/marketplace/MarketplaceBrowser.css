@@ -1,0 +1,20 @@
+.marketplace-browser ion-card{
+    margin-inline: 4px !important;
+}
+.marketplace-browser ion-col{
+    min-width: 160px;
+}
+.marketplace-browser .loading{
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.marketplace-browser .searchbar-search-icon { 
+    display:none; 
+    width:0; 
+    height:0; 
+}
+.marketplace-browser .searchbar-input { 
+    padding-left: 16px;
+}

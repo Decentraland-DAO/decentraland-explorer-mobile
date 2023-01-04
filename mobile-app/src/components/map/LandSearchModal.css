@@ -1,0 +1,49 @@
+ion-header.land-search-modal {
+  background-image: none;
+}
+ion-header.land-search-modal::after{
+  background-image: none !important;
+}
+ion-content.land-search-modal{
+  --background: transparent !important;
+}
+.land-search-modal ion-toolbar{
+  --border-width: 0 !important;
+  --background: var(--ion-item-background) !important;
+}
+.land-search-modal ion-searchbar{
+  --padding-start: 55px;
+}
+.land-search-modal ion-searchbar input{
+    border: solid 1px var(--ion-color-step-200) !important;
+}
+.land-search-modal ion-searchbar.ios{
+  padding-top: 15px;
+}
+.land-search-modal ion-searchbar.ios input{
+  padding-left: 50px !important;
+}
+.land-search-modal .loading{
+  text-align: center;
+  background: var(--ion-item-background, var(--ion-background-color, #fff)) !important;
+}
+.land-search-modal .hint{
+  margin: 16px;
+}
+
+.land-search-results ion-list{
+  min-height: 100vh;
+}
+.land-search-results ion-item{
+  --padding-start: 8px !important;
+  --padding-end: 8px !important;
+  --border-color: var(--ion-color-step-100) !important;
+}
+.land-search-results ion-thumbnail{
+  --border-radius: 20% !important;
+}
+.land-search-results ion-chip{
+  margin-top: 8px;
+  margin-left: 0 !important;
+  border-radius: 5px !important;
+}
